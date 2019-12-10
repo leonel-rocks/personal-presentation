@@ -6,7 +6,7 @@ npm install
 
 to download all dependencies
 
-Make sure yohave bootstrap, if not run:
+Make sure you have bootstrap, if not run:
 
 npm install bootstrap
 
