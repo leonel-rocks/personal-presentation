@@ -1,0 +1,39 @@
+a {
+  color: #00B7FF;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 50px;
+}
+
+.center-photo{
+  display:block;
+  text-align:center;
+}
+
+.company-logo{
+  width: 100%;
+}
+
+.company-logo-xs{
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .company-logo{
+    display: none;
+  }
+  .company-logo-xs{
+    display: block;
+  }
+}
+
+@media (min-width: 999px) {
+  .company-logo{
+    display: block;
+  }
+  .company-logo-xs{
+    display: none;
+  }
+}

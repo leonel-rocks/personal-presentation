@@ -1,0 +1,176 @@
+extends layout
+
+block content
+  h1.text-center Leonel Jaime Ocsa Sánchez
+  p.text-center Full Stack Developer
+
+
+  .container
+    .center-photo
+      img.photo(src="images/leonel.png")
+    
+    h2 Professional Experience
+    hr
+    .row
+      .col-xs-12.col-md-6
+        img.company-logo(src="images/chazki.png" alt="Image Title")
+        img.company-logo-xs(src="images/chazki-xs.png" alt="Image Title")
+      .col-xs-12.col-md-6
+        p #[strong Chazki]
+        p September 2019 - November 2019
+        p Full Stack Developer 
+        p.text-justify Develop and creation front end functionalities and backend services, performing testing and debugging. The project included:
+        ul
+          li.text-justify Designing and developing APIs to integrate clients to the main platform, providing real time tracking for orders that included real time status change for orders, saving historical event logs during the process.
+          li.text-justify Designing real time tracker, the final client was able to watch his order position through google maps.
+          li.text-justify Managing meetings with final clients to consolidate new integrations, taking decisions and taking notes for new requirements, communicating technology strategies to partners. 
+          li.text-justify Integration to final clients using external APIs like Beetrack to update status orders and send real time notification via email and text message. 
+          li.text-justify Maintenance of the application, creation of new tickets when clients reported and issue, fixing issues and improving functionalities at front end and back end.
+          li.text-justify Chazki is a company which provides logistic services dedicated to deliver orders from other companies, providing real time tracking, letting the final clients watch their package position and improving the consumers experience.
+
+        p.text-justify Technologies used: Git, Github, Java, Spring Boot, Angular 5, MySQL, PostgreSQL, MongoDB, NodeJS.
+    hr
+    .row
+      .col-xs-12.col-md-6
+        p #[strong Belatrix Software]
+        p April 2018 - August 2019
+        p Backend Developer 
+        p.text-justify Designing and implementing back end based applications, analyzing new user requirements and debugging  and maintaining the application. The projects included: 
+        ul.text-justify
+          li Train to learn new front end technologies like Angular and React, making application demos connected to backend services implemented on Ruby on Rails.
+          li The first client was Banco de Crédito del Perú (BCP). This client required a new application called “Abre tu cuenta BCP” a website application intended to let users the creation of new bank account through the internet, making the process much easier. This required the integration to several API levels which belonged to BCP. The project required the creation of new end points. BCP provided test bank accounts to test the new application and their functionalities. SCRUM methodology was used to optimize the project completion. 
+          li Creation of Salesforce application demo for a client. Project was about buying products for kid parties. The development was under Apex from Salesforce, adding new functionalities to the application.
+          li Design and develop of back end functionalities, doing maintenance to old end points. Creation of new logs to detect new types of data from Facebook Ads and Google Ads API. Modification and addition of new changes to front end functionalities using knockoutJS as main framework. The client was Wordstream a SaaS company which developed an online advertising software to create ads. SCRUM methodology was used to optimize the project completion. 
+          li Work with REST APIs and complex backend API integration, developing back end services through Python and Java. Intensive code review, writing of full detailed testing notes for QA team and supporting production deployment when new changes were added. Creating new tickets on JIRA when an issue was found.
+          li Creation of migration files to add or remove new changes.
+          li Full and solid communication with clients, asking for help if needed or explaining and suggestions best solutions to optimize the final product.
+
+        p Technologies used: Git, Github, Java, Spring Boot, Python, Ruby on Rails, Angular 5, ReactJS, MySQL, PostgreSQL, MongoDB, NodeJS, Unity 3D, KnockoutJS, JIRA, Salesforce.
+      .col-xs-12.col-md-6.order-first.order-md-last
+        img.company-logo(src="images/belatrix.png" alt="Image Title")
+        img.company-logo-xs(src="images/belatrix-xs.png" alt="Image Title")
+    hr 
+    .row.container-fluid
+      .col-md-6 
+        img.company-logo(src="images/yolo.png" alt="Image Title")
+        img.company-logo-xs(src="images/yolo-xs.png" alt="Image Title")
+      .col-md-6
+        p #[strong Yolo Media]
+        p February 2018 - April 2018
+        p Full Stack Developer
+        p.text-justify Designing, creating and implementing new functionalities for a local newspaper called “El Pueblo” this was the main client for the company. The project included:
+        ul.text-justify 
+          li Design of new relational model to be implemented in MySQL, the main goal was to create a complete API with high level of security, oAuth2 access token implementation was used.
+          li Support for old versions and improving the UI performance adding new front end functionalities which required new end points or HTTP requests and response modifications.
+          li Develop of back end REST APIs using Laravel as main MVC framework, documentation and code review were included.
+
+        p Technologies used: Git, Github, PHP, Javascript, JQuery, CSS, Html5, Laravel, MySQL.
+    hr
+    .row.container-fluid
+      .col-md-6
+        p #[strong Universidad Católica San Pablo]
+        p March 2017 - August 2017
+        p Teacher for videogames programming
+        p.text-justify Teaching the basic and fundamental concepts of programming to students. Helping the main teacher to handle tests and teaching lessons when he needed. The project includes:
+
+        ul.text-justify
+          li Teaching Python, supporting and giving tips to understand basic concepts like declaration of variables, functions, recursivity, loops, memory usage and POO.
+          li Reviewing tests and tasks, being objective and helping the students to understand the code and improve their skills.
+          li Helping students to create a basic videogame using python, applying all the concepts learnt in the course. 
+          li Teaching teamwork concepts to complete goals and advising students to learn from mistakes to apply new knowledge when a solution is needed. High support to students was given.  
+
+        p Technologies used: Git, Github, Python, pygame.
+      .col-md-6.order-first.order-md-last
+        img.company-logo(src="images/ucsp.png" alt="Image Title")
+        img.company-logo-xs(src="images/ucsp-xs.png" alt="Image Title")
+    hr
+    .row.container-fluid
+      .col-md-6 
+        img.company-logo(src="images/old-chazki.png" alt="Image Title")
+        img.company-logo-xs(src="images/old-chazki-xs.png" alt="Image Title")
+      .col-md-6
+        p #[strong Chazki]
+        p May 2014 - April 2016
+        p Information Technology Developer 
+        p.text-justify Design and implementation of a new startup called Chazki were done from zero, creating all the business and infrastructure logic to get a complete platform to manage delivery orders from external companies. Back end was developed in Java using Spring Boot, database was modeled and implemented on MongoDB. The projects included:
+        ul.text-justify 
+          li The startup was a logistic application to deliver orders. The work consisted of creating a shipping strategy to optimize the delivery time needed by  a delivery man, for that purpose Google Maps API was used and it helped to create new functionalities.
+          li A planner was created, this functionality provided the creation of routes, the routes could be manually or automatically created. Algorithms to handle the best route, like Dijkstra, were implemented, at the same time other variables like time, dangerous areas and traffic were used. Also research and papers reading about building the best route were needed.
+          li A platform to assign delivery orders was created, also a rating system was added and real time tracking to watch the position of an order was implemented, high scalability techniques were applied to store millions of data per year. 
+          li Front end was implemented in Dart combined with Polymer, creating UI designs available on multiple devices. Performance of the application was improved when AngularJS was used to create new functionalities.
+          li Implementation of APIs for integration with clients, creating login services for user registration through oAuth. A functionality to upload orders using CSV files from clients was implemented. 
+          li Documentation, code review, testing and deployment were applied.
+
+        p Technologies used: Git, Github, Java, Spring Boot, Angular 2, PostgreSQL, MongoDB, Dart, Polymer, Google Maps API, JIRA, Javascript, JQuery, CSS, HTML5.
+    hr
+    .row.container-fluid
+      .col-md-6
+        p #[strong Geek Advice]
+        p February 2014 - April 2014
+        p Web Developer Front end and Back end 
+        p.text-justify Development of front and backend modules for web applications from several clients. The project included:
+
+        ul.text-justify
+          li Creation of an admin dashboard to track statistics and reports generation, supporting old versions from client projects. The process included debugging and logs implementation, the design of database schemas for MySQL were involved.
+          li Implementation of new functionality to send emails developed on Laravel was done. Front end functionalities were implemented using JQuery, UI design was done using HTML5, Bootstrap and CSS. 
+
+        p Technologies used: Git, Github, PHP, Laravel, Symfony, JQuery, Javascript, CSS, HTML5, MySQL.
+      .col-md-6.order-first.order-md-last
+        img.company-logo(src="images/geekadvice.png" alt="Image Title")
+        img.company-logo-xs(src="images/geekadvice-xs.png" alt="Image Title")
+    hr
+    .row.container-fluid
+      .col-md-6 
+        img.company-logo(src="images/quickdev.png" alt="Image Title")
+        img.company-logo-xs(src="images/quickdev-xs.png" alt="Image Title")
+      .col-md-6
+        p #[strong QuickDev]
+        p October 2013 - January 2014
+        p Web Developer Back end 
+        p.text-justify Development of backend modules for web and mobile application from several clients. The project included:
+        ul.text-justify 
+          li Support to old end points, adding new parameters to HTTP request and response, applying validations to test and debug new changes.
+          li Design, creation and implementation of new user interfaces. Prototypes and mockups were first needed.
+          li Management of MySQL database, creating daily backups  and adding new tables and relations if needed. Creation of migration files to control new database versions. 
+
+        p Technologies used: Tortoise, PHP, Laravel, MySQL.
+    hr
+    .row.container-fluid
+      .col-md-6
+        p #[strong Consultores en Soluciones Expertas S.R.L.]
+        p January 2013 - September 2013
+        p System Developer
+        p.text-justify Development and implementation of the Milk Glass 	System for the municipality of Cayma, the project consisted of building a full platform to manage the delivery of product to families subscribed to this benefit from the state. The project included:
+
+        ul.text-justify
+          li Design and implementation of database schemas, creating and managing clients data in PostgreSQL. The creation of UI prototypes were needed to know fields, tables and relations needed to be implemented. The back end system was developed on PHP using a customized framework developed by the company. 
+          li A report generating system was developed using FPDF module. Testing, validation of fields and debugging were done to optimize the final product performance. 
+          li Interviews with final clients were needed to implement new requirements and optimize the application scalability.
+          li The project was integrated with a real database from peruvian citizens to autocomplete data automatically. 
+
+        p Technologies used: Tortoise, PHP, PostgreSQL, Javascript, HTML5, CSS.
+      .col-md-6.order-first.order-md-last
+        img.company-logo(src="images/consultores.png" alt="Image Title")
+        img.company-logo-xs(src="images/consultores-xs.png" alt="Image Title")
+    hr
+    .row.container-fluid
+      .col-md-6 
+        img.company-logo(src="images/quickdev.png" alt="Image Title")
+        img.company-logo-xs(src="images/quickdev-xs.png" alt="Image Title")
+      .col-md-6
+        p #[strong QuickDev]
+        p July 2012 - September 2012
+        p Web Developer 
+        p.text-justify Development of basic websites modules and creation of new functionalities. The project included:
+        ul.text-justify 
+          li Implementation of the administrative tools for web applications using Laravel. This process included writing of validation logic, tests and debugging for forms.
+          li Design and implementation of database schemas which included the management of MySQL databases as support in case new changes were required.
+          li Basic HTML5 with CSS and Javascript functionalities were implemented to complement client requirements. 
+
+        p Technologies used: Tortoise, PHP, MySQL, Javascript, HTML5, CSS.
+    hr
+
+  footer
+    p.text-center Contact information: 
+      | <a href="mailto:someone@example.com">leonel.ocsa.sanchez@ucsp.edu.pe</a>
+    
