@@ -17,3 +17,9 @@ To run the project run:
 npm start
 
 Local test http://localhost:3000/
+
+You can watch my personal presentation live here! :)
+
+https://personal-presentation.herokuapp.com/
+
+
